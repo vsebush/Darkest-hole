@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    static class MyMath
+    static public class MyMath
     {
-        
-        static public Boolean chek (int _hex,int _hey, int _gux, int _guy, double _vectorvision, int _angelvision, int _distancevision)
+
+        static public Boolean chek(int _hex, int _hey, int _gux, int _guy, double _vectorvision, int _angelvision, int _distancevision)
         {
             int point2x = _hex; //4
             int point2y = _hey;// 4
@@ -24,13 +24,13 @@ namespace ConsoleApp1
             int lineb;
             double angle;
 
-            point3x = point1x + Convert.ToInt32(Math.Sin(vectorvision * Math.PI / 180))* lineR;
+            point3x = point1x + Convert.ToInt32(Math.Sin(vectorvision * Math.PI / 180)) * lineR;
             point3y = point1y + Convert.ToInt32(Math.Cos(vectorvision * Math.PI / 180)) * lineR;
 
-            linea = Convert.ToInt32(Math.Sqrt(Math.Pow(point1x-point2x,2)+ Math.Pow(point1y - point2y, 2)));
+            linea = Convert.ToInt32(Math.Sqrt(Math.Pow(point1x - point2x, 2) + Math.Pow(point1y - point2y, 2)));
             lineb = Convert.ToInt32(Math.Sqrt(Math.Pow(point2x - point3x, 2) + Math.Pow(point2y - point3y, 2)));
 
-            angle = Math.Acos((linea * linea + lineR * lineR - lineb * lineb)/(2*lineR*linea));
+            angle = Math.Acos((linea * linea + lineR * lineR - lineb * lineb) / (2 * lineR * linea));
             angle = angle * 180 / Math.PI;
 
 
@@ -39,12 +39,32 @@ namespace ConsoleApp1
             else
                 return true;
 
+
+        }
+
+         public class Worldposition : worldposirtion 
+        {
             
+
+            public Worldposition( int x,int y)
+            {
+                this.xposition = x;
+                this.yposition = y;
+
+
+            }
+
+            public int xposition { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+            public int yposition { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         }
 
 
 
-
-
     }
-}
+
+
+
+
+    
+                                        }
+

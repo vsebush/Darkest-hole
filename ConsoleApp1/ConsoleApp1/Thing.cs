@@ -12,4 +12,12 @@ namespace ConsoleApp1
 
 
     }
+
+
+    class weapon : Thing
+    {
+
+    }
+
+
 }

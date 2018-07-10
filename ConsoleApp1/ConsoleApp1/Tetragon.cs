@@ -6,19 +6,48 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Tetragon
+    class Tetragon : worldposirtion
     {
-        int x;
-        int y;
+        public int x;
+        public int y;
+
         object entity;
         object furniture;
 
-
-
-        public Tetragon(int x, int y)
+        public int xposition
         {
-            this.x = x;
-            this.y = y;
+            get
+            {
+                return x;
+            }
+
+            set
+            {
+                x = value;
+            }
+
+        }
+        public int yposition
+        {
+            get
+            {
+                return y;
+            }
+
+            set
+            {
+                y = value;
+            }
+
+        }      
+
+
+       public Tetragon (MyMath.Worldposition position)
+        {
+            this.xposition = position.xposition;
+            this.yposition = position.yposition;
+
+
         }
 
 
@@ -31,6 +60,11 @@ namespace ConsoleApp1
         {
             this.furniture = furniture;
         }
+
+
+
+
+
 
 
 

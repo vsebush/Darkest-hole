@@ -26,7 +26,7 @@ namespace ConsoleApp1
 
 
             // Console.WriteLine (MyMath.chek(he.xposition, he.yposition, gu.xposition, gu.yposition, gu.vectorvision, gu.anglevision, gu.distancevision));
-
+            
 
             for (int i = 0; i < maxX; i++)
             {
@@ -47,8 +47,14 @@ namespace ConsoleApp1
                     }
                 }
             }
-            
 
+
+
+
+            lvlconstructor lvl = new lvlconstructor();
+
+            lvl.create_place(1,1);
+            lvl.record();
            
 
 

@@ -5,3 +5,10 @@ C:\Users\HolyEmperor\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.
 C:\Users\HolyEmperor\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
 C:\Users\HolyEmperor\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\HolyEmperor\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\HolyEmperor\Documents\Darkest hole\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\HolyEmperor\Documents\Darkest hole\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\HolyEmperor\Documents\Darkest hole\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\HolyEmperor\Documents\Darkest hole\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+C:\Users\HolyEmperor\Documents\Darkest hole\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\HolyEmperor\Documents\Darkest hole\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\HolyEmperor\Documents\Darkest hole\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
